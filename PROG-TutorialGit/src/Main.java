@@ -1,5 +1,15 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hola Mundo");
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Introduce un número: ");
+        int num = sc.nextInt();
+
+        System.out.println("Has introducido: " + num);
+
+        sc.close();
     }
 }
